@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contacto {
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: cover;
+}
+
+
+
+#Sobremi {
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: cover;
+}
+
+#Proyectos {
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+}
+
+.btn{
+    color: #370a6d;
+    background-color: white;
+    border: 0px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #370a6d;
+}
+.btn-rojo{
+    color: white;
+    background-color:red;
+    border: 0px;
+    padding:5px;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.btn-rojo:hover {
+    color:red;
+    background-color:white;
+}
+.link-rojo{
+    text-decoration: none;
+    color: red;
+    
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
+footer .fa-github {
+    font-size: 30;
+    color: white;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8 0 0 0;
+    border-radius: 80px;
+    margin: 0px;
+}
+.btn-whatsapp{
+    position: fixed;
+    right: 50px;
+    bottom:0 px;
+    color: #370a6d;
+    align-content: end;
+}
+
+.proyecto h2{
+   font-size: 16px;
+   color: white;
+   background-color: red;
+   padding: 10px;
+}
+.proyecto img{
+    height: 212px;
+
+}
+.proyecto p{
+    font-size: 14px;
+    height: 110px;
+    
+}
